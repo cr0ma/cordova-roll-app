@@ -1,6 +1,11 @@
+#test-roll {
+	      position:fixed;
+	      text-align:center;
+}
 .all-container {
     width: 100%
     margin: auto;
+    position: relative;
 }
 .dice-container {
     width: 190px;
