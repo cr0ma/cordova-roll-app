@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/d20.css">
+    <title>Test drive of D20</title>
+</head>
+
+<body>
+    <div class="all-container">
+        <div class="dice-container">
+            <div id="dice" class="show-20">
+                <figure class="face01">1</figure>
+                <figure class="face02">2</figure>
+                <figure class="face03">3</figure>
+                <figure class="face04">4</figure>
+                <figure class="face05">5</figure>
+                <figure class="face06">6</figure>
+                <figure class="face07">7</figure>
+                <figure class="face08">8</figure>
+                <figure class="face09">9</figure>
+                <figure class="face10">10</figure>
+                <figure class="face11">11</figure>
+                <figure class="face12">12</figure>
+                <figure class="face13">13</figure>
+                <figure class="face14">14</figure>
+                <figure class="face15">15</figure>
+                <figure class="face16">16</figure>
+                <figure class="face17">17</figure>
+                <figure class="face18">18</figure>
+                <figure class="face19">19</figure>
+                <figure class="face20">20</figure>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
