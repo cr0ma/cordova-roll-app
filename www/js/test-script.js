@@ -38,8 +38,8 @@ var showFace = function() {
 
 $( document ).ready(function() {
 
-    showFace();
+    showface();
     $("#test-roll").on("click", function(){
-        showFace();
+        showface();
     });
 });

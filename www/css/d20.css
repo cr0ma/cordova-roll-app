@@ -1,17 +1,9 @@
-#test-roll {
-	      position:fixed;
-	      text-align:center;
-}
-.all-container {
-    width: 100%
-    margin: auto;
-    position: relative;
-}
-.dice-container {
+dice-container {
     width: 190px;
     height: 190px;
     position: absolute;
-    margin: 100px auto;
+    margin: 50% auto;
+    margin-left: 50px;
     /* -webkit-perspective: 1000; */
     /* perspective: 1000; */
     display: block;
